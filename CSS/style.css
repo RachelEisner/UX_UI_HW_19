@@ -1,0 +1,340 @@
+body {
+    height: auto;
+    margin: 80px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+a:hover {
+    color: rgb(16, 16, 17);
+    font-size: 101%;
+}
+a:active {
+    text-decoration: underline;
+    color: rgb(11, 11, 14);
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+a:link {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.navigation {
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    width: 1440px;
+    position: fixed;
+    background-color: rgba(255,255,255, 0.9);
+    vertical-align: top;
+}
+.logo {
+    padding: 0%;
+    text-align: left;
+    flex-flow: row;
+    margin: 0px;
+    border: 0px;
+}
+.navBar {
+    display: flex;
+    flex-flow: row;
+    margin-top: 0%;
+}
+.leftNav {
+    vertical-align: top;
+    padding: 1%;
+    display: flex;
+    flex-flow: row;
+    width: auto;
+    align-content: flex-start;
+    text-align: left;
+}
+.left {
+    list-style-type: none;   
+    display: flex;
+    float: left;
+    align-content: flex-start;
+    flex-direction: row;
+    width: auto;
+}
+.lnavLink {
+    width: 100px;
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+    align-items: flex-start;
+    
+}
+.rightNav {
+    vertical-align: top;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    text-align: right;
+    align-content: flex-end;
+    width: 838px;
+}
+.right {
+    list-style-type: none;  
+    display: flex;
+    float: right;
+    flex-direction: row;
+    width: auto;
+    align-content: flex-end;
+}
+.rnavLink {
+    width: auto;
+    padding-inline-end: 30px;
+    align-items: flex-end;
+}
+.heroimg {
+    display: flex;
+    height: 700px;
+    background-color: white;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.diagram {
+    display: flex;
+    height: 600px;
+    background-color: black;
+    margin-bottom: 9px;
+}
+.diagramImg {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#caseStudies {
+    height: 1260px;
+    width: auto;
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.columnWhite {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 590px;
+    height: 600px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-left: 9px;
+    align-content: center;
+    text-align: center;
+}
+.columnBlack {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 590px;
+    height: 600px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-left: 9px;
+    align-content: center;
+    text-align: center;
+}
+.justifyText {
+    justify-content: left;
+    text-align: left;
+    margin-block-start: 9px;
+    margin-inline-start: 9px;
+    margin-block-end: 40px;
+}
+#heroSection {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 700;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: white;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+.heroImg {
+    border: 3px;
+}
+.heroTitle {
+    border: 3px;
+    padding-top: 200px;
+}
+.aboutMe {
+    background-color: black;
+    height: 400px;
+    width: auto;
+    padding-left: 185px; 
+    padding-right: 185px;
+    vertical-align: middle;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+.aboutTitle {
+    background-color: black;
+    color: white;
+    align-content: center;
+    padding-top: 50px;
+}
+.aboutBlurb {
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
+.skillsSection {
+    background-color: white;
+    flex-direction: row;
+    height: 730px;
+    width: auto;
+}
+.skills {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+}
+.introSkills {
+    align-content: flex-start;
+}
+.listArea {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.listSkills {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+.leftList {
+    display: flex;
+    float: left;
+    align-content: flex-start;
+    flex-direction: column;
+    width: 400px;
+}
+.rightList {
+    display: flex;
+    float: right;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.listImage {
+    display: flex;
+}
+.skillsListed {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+}
+ul {
+    display: flex;
+    flex-flow: column;
+    color: black;
+    margin-top: 0%;
+    margin-left: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+footer {
+    background-color: rgba(255,255,255, 0.8);
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    margin-bottom: 0%;
+    width: 1440px;
+}
+.footer {
+    display: flex;
+    flex-flow: row;
+}
+.leftFooter{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    align-content: flex-start;
+    width: 590px;
+}
+.topLeft{
+    display: flex;
+    align-content: flex-start;
+    vertical-align: top;
+}
+.bottomLeft{
+    align-items: flex-start;
+    list-style-type: none; 
+    display: flex;
+    float: left;
+    flex-direction: row;
+    width: auto;
+    align-content: flex-start;
+    vertical-align: top;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rightFooter{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: right;
+    align-content: flex-end;
+    width: 640px;
+}
+.topRight{
+    display: flex;
+    align-content: flex-end;
+    vertical-align: top;
+    padding-inline-end: 10px;
+}
+.bottomRight{
+    align-items: flex-end;
+    list-style-type: none; 
+    display: flex;
+    float: right;
+    flex-direction: row;
+    width: auto;
+    align-content: flex-end;
+    vertical-align: top;
+    font-size: 12px;
+}
+.footerLink{
+    list-style-type: none;
+    width: auto;
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+    align-items: flex-end;
+}
