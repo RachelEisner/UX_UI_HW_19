@@ -274,7 +274,7 @@ footer {
     flex-flow: row;
     align-content: space-between;
     margin-bottom: 0%;
-    width: 1440px;
+    width: auto;
 }
 .footer {
     display: flex;
